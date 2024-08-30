@@ -1,3 +1,12 @@
+.resume-border {
+    width: 80px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(o,0,0,0.1);
+}
 img{
     border-radius: 35%;
     margin-right:auto;
@@ -6,11 +15,16 @@ img{
 }
 
 body{
+    font-family: Arial, sans-serif;
     background-color: lightskyblue;
 }
 
-p{
-    border: 2px solid red; 
-    border-radius: 5px;
-    margin: 25px;
+
+ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+ul li{
+    margin-bottom: 5px;
 }
